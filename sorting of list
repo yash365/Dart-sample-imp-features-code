@@ -1,0 +1,17 @@
+void main() {
+  
+  double i = 40.90;
+  double i2 = 70.90;
+  double i3 = 600.90;
+  double i4 = 30.98;
+  double i5 = 12.99;
+  
+ List<double> sortingList = [i, i2, i3, i4, i5];
+    
+sortingList.sort(); // sorting the list
+  
+double value = sortingList.last;
+
+print(value);  
+}
+
